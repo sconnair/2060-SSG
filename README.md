@@ -13,7 +13,7 @@ This project was created as part of ECE 2060. The purpose was to create a game i
 - Win State: (https://youtu.be/SRT752pYcL4)
 - Lose State: (https://youtu.be/Hm0BAXarpMw)
 
-Team Credit:
-Kevin O'Neill
-Ty Fredrick
-Stephen Connair
+## Team Credit:
+- Kevin O'Neill
+- Ty Fredrick
+- Stephen Connair
