@@ -1,2 +1,15 @@
-# 2060-SSG
-ECE 2060 Simon State Machine Game
+# ECE 2060 Intro to Digital Logic Lab - Simon State Machine Game
+
+This project was created as part of ECE 2060. The purpose was to create a game in which the player had to repeat back button presses according to an indicated sequence.
+
+Tools used:
+
+- Quartus Prime
+- ModelSim
+- The Altera DE2 Board
+
+
+Team Credit:
+Kevin O'Neill
+Ty Fredrick
+Stephen Connair

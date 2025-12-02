@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Dec 02 10:12:36 2025
+Quartus Prime Version : 18.1.1 Build 646 04/11/2019 SJ Lite Edition
+Revision Name : DE2_i2sound
+Top-level Entity Name : CODEC
+Family : Cyclone IV E
+Total logic elements : 2,356
+    Total combinational functions : 1,982
+    Dedicated logic registers : 1,470
+Total registers : 1470
+Total pins : 50
+Total virtual pins : 0
+Total memory bits : 136,192
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

@@ -1,0 +1,208 @@
+Flow report for DE2_i2sound
+Tue Dec 02 10:13:51 2025
+Quartus Prime Version 18.1.1 Build 646 04/11/2019 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Tue Dec 02 10:13:51 2025       ;
+; Quartus Prime Version              ; 18.1.1 Build 646 04/11/2019 SJ Lite Edition ;
+; Revision Name                      ; DE2_i2sound                                 ;
+; Top-level Entity Name              ; CODEC                                       ;
+; Family                             ; Cyclone IV E                                ;
+; Device                             ; EP4CE115F29C7                               ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 2,265 / 114,480 ( 2 % )                     ;
+;     Total combinational functions  ; 1,992 / 114,480 ( 2 % )                     ;
+;     Dedicated logic registers      ; 1,454 / 114,480 ( 1 % )                     ;
+; Total registers                    ; 1454                                        ;
+; Total pins                         ; 50 / 529 ( 9 % )                            ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 136,192 / 3,981,312 ( 3 % )                 ;
+; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                             ;
+; Total PLLs                         ; 1 / 4 ( 25 % )                              ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 12/02/2025 10:11:10 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; DE2_i2sound         ;
++-------------------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                         ;
++-------------------------------------+---------------------------------------------------+---------------+-------------+------------------+
+; Assignment Name                     ; Value                                             ; Default Value ; Entity Name ; Section Id       ;
++-------------------------------------+---------------------------------------------------+---------------+-------------+------------------+
+; COMPILER_SIGNATURE_ID               ; 128122666745271.176468826914964                   ; --            ; --          ; --               ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                              ; --            ; --          ; eda_simulation   ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                            ; <None>        ; --          ; --               ;
+; ENABLE_SIGNALTAP                    ; On                                                ; --            ; --          ; --               ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                ; --            ; --          ; --               ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                 ; --            ; --          ; --               ;
+; MISC_FILE                           ; altpll0.bsf                                       ; --            ; --          ; --               ;
+; MISC_FILE                           ; altpll0.ppf                                       ; --            ; --          ; --               ;
+; MISC_FILE                           ; lpm_mux0.bsf                                      ; --            ; --          ; --               ;
+; MISC_FILE                           ; lpm_constantb1.bsf                                ; --            ; --          ; --               ;
+; MISC_FILE                           ; lpm_constantb2.bsf                                ; --            ; --          ; --               ;
+; MISC_FILE                           ; StretchTimer.bsf                                  ; --            ; --          ; --               ;
+; MISC_FILE                           ; StretchTimer.cmp                                  ; --            ; --          ; --               ;
+; MISC_FILE                           ; StretchTimer_syn.v                                ; --            ; --          ; --               ;
+; MISC_FILE                           ; StretchCompare.bsf                                ; --            ; --          ; --               ;
+; MISC_FILE                           ; StretchCompare.cmp                                ; --            ; --          ; --               ;
+; MISC_FILE                           ; StretchCompare_syn.v                              ; --            ; --          ; --               ;
+; MISC_FILE                           ; Counter1.bsf                                      ; --            ; --          ; --               ;
+; MISC_FILE                           ; Counter1.cmp                                      ; --            ; --          ; --               ;
+; MISC_FILE                           ; Counter1_syn.v                                    ; --            ; --          ; --               ;
+; MISC_FILE                           ; MUXRandom.bsf                                     ; --            ; --          ; --               ;
+; MISC_FILE                           ; MUXRandom.cmp                                     ; --            ; --          ; --               ;
+; MISC_FILE                           ; MUXRandom_syn.v                                   ; --            ; --          ; --               ;
+; MISC_FILE                           ; SineWave.bsf                                      ; --            ; --          ; --               ;
+; MISC_FILE                           ; SineWave.cmp                                      ; --            ; --          ; --               ;
+; MISC_FILE                           ; SineWave_syn.v                                    ; --            ; --          ; --               ;
+; MISC_FILE                           ; Add_Sub.bsf                                       ; --            ; --          ; --               ;
+; MISC_FILE                           ; Add_Sub.cmp                                       ; --            ; --          ; --               ;
+; MISC_FILE                           ; Add_Sub_syn.v                                     ; --            ; --          ; --               ;
+; MISC_FILE                           ; P_value.bsf                                       ; --            ; --          ; --               ;
+; MISC_FILE                           ; P_value.cmp                                       ; --            ; --          ; --               ;
+; MISC_FILE                           ; P_value_syn.v                                     ; --            ; --          ; --               ;
+; MISC_FILE                           ; SoundSelect.bsf                                   ; --            ; --          ; --               ;
+; MISC_FILE                           ; SoundSelect.cmp                                   ; --            ; --          ; --               ;
+; MISC_FILE                           ; SoundSelect_syn.v                                 ; --            ; --          ; --               ;
+; MISC_FILE                           ; Wrong.bsf                                         ; --            ; --          ; --               ;
+; MISC_FILE                           ; Wrong.cmp                                         ; --            ; --          ; --               ;
+; MISC_FILE                           ; Wrong_syn.v                                       ; --            ; --          ; --               ;
+; MISC_FILE                           ; GREEN.bsf                                         ; --            ; --          ; --               ;
+; MISC_FILE                           ; GREEN.cmp                                         ; --            ; --          ; --               ;
+; MISC_FILE                           ; GREEN_syn.v                                       ; --            ; --          ; --               ;
+; MISC_FILE                           ; RED.bsf                                           ; --            ; --          ; --               ;
+; MISC_FILE                           ; RED.cmp                                           ; --            ; --          ; --               ;
+; MISC_FILE                           ; RED_syn.v                                         ; --            ; --          ; --               ;
+; MISC_FILE                           ; YELLOW.bsf                                        ; --            ; --          ; --               ;
+; MISC_FILE                           ; YELLOW.cmp                                        ; --            ; --          ; --               ;
+; MISC_FILE                           ; YELLOW_syn.v                                      ; --            ; --          ; --               ;
+; MISC_FILE                           ; BLUE.bsf                                          ; --            ; --          ; --               ;
+; MISC_FILE                           ; BLUE.cmp                                          ; --            ; --          ; --               ;
+; MISC_FILE                           ; BLUE_syn.v                                        ; --            ; --          ; --               ;
+; MISC_FILE                           ; RandomCounter.bsf                                 ; --            ; --          ; --               ;
+; MISC_FILE                           ; RandomCounter.cmp                                 ; --            ; --          ; --               ;
+; MISC_FILE                           ; RandomCounter_syn.v                               ; --            ; --          ; --               ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                              ; --            ; --          ; --               ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family)            ; --            ; CODEC       ; Top              ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)            ; --            ; CODEC       ; Top              ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)            ; --            ; CODEC       ; Top              ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                               ; --            ; --          ; --               ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW             ; --            ; --          ; --               ;
+; SLD_FILE                            ; db/stp6_auto_stripped.stp                         ; --            ; --          ; --               ;
+; SLD_NODE_CREATOR_ID                 ; 110                                               ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_ENTITY_NAME                ; sld_signaltap                                     ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_BITS=1                                ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_NODE_INFO=805334528                           ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_POWER_UP_TRIGGER=0                            ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0     ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ATTRIBUTE_MEM_MODE=OFF                        ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STATE_FLOW_USE_GENERATED=0                    ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STATE_BITS=11                                 ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_BUFFER_FULL_STOP=1                            ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_CURRENT_RESOURCE_WIDTH=1                      ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_LEVEL=1                               ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_IN_ENABLED=0                          ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ADVANCED_TRIGGER_ENTITY=basic,1,              ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_LEVEL_PIPELINE=1                      ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ENABLE_ADVANCED_TRIGGER=0                     ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INCREMENTAL_ROUTING=1                         ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_PIPELINE=0                            ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_RAM_PIPELINE=0                                ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_COUNTER_PIPELINE=0                            ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_RAM_BLOCK_TYPE=AUTO                           ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_DATA_BITS=16                                  ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STORAGE_QUALIFIER_BITS=16                     ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INVERSION_MASK=000000000000000000000000000000 ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INVERSION_MASK_LENGTH=30                      ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_SEGMENT_SIZE=8192                             ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_SAMPLE_DEPTH=8192                             ; --            ; --          ; auto_signaltap_0 ;
+; TOP_LEVEL_ENTITY                    ; CODEC                                             ; DE2_i2sound   ; --          ; --               ;
+; USE_SIGNALTAP_FILE                  ; stp6.stp                                          ; --            ; --          ; --               ;
++-------------------------------------+---------------------------------------------------+---------------+-------------+------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:01:24     ; 1.0                     ; 4865 MB             ; 00:00:18                           ;
+; Fitter               ; 00:00:12     ; 1.0                     ; 5351 MB             ; 00:00:11                           ;
+; Assembler            ; 00:00:11     ; 1.0                     ; 4703 MB             ; 00:00:03                           ;
+; Timing Analyzer      ; 00:00:11     ; 1.0                     ; 4846 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:13     ; 1.0                     ; 4698 MB             ; 00:00:02                           ;
+; Total                ; 00:02:11     ; --                      ; --                  ; 00:00:35                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; ECE-DNC269159D   ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; ECE-DNC269159D   ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; ECE-DNC269159D   ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; ECE-DNC269159D   ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; ECE-DNC269159D   ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off CODECProject -c DE2_i2sound
+quartus_fit --read_settings_files=off --write_settings_files=off CODECProject -c DE2_i2sound
+quartus_asm --read_settings_files=off --write_settings_files=off CODECProject -c DE2_i2sound
+quartus_sta CODECProject -c DE2_i2sound
+quartus_eda --read_settings_files=off --write_settings_files=off CODECProject -c DE2_i2sound
+
+
+

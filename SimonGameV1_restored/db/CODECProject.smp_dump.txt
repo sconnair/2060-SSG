@@ -1,0 +1,14 @@
+
+State Machine - |CODEC|System_Controller:inst8|STATE
+Name STATE.GAME STATE.AUTODISPLAY STATE.WIN STATE.LOSE STATE.WAITS 
+STATE.WAITS 0 0 0 0 0 
+STATE.LOSE 0 0 0 1 1 
+STATE.WIN 0 0 1 0 1 
+STATE.AUTODISPLAY 0 1 0 0 1 
+STATE.GAME 1 0 0 0 1 
+
+State Machine - |CODEC|DE2_i2sound:inst|I2C_AV_Config:inst|mSetup_ST
+Name mSetup_ST.0000 mSetup_ST.0010 mSetup_ST.0001 
+mSetup_ST.0000 0 0 0 
+mSetup_ST.0001 1 0 1 
+mSetup_ST.0010 1 1 0 

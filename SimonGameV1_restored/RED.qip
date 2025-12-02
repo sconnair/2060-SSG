@@ -1,0 +1,7 @@
+set_global_assignment -name IP_TOOL_NAME "LPM_CONSTANT"
+set_global_assignment -name IP_TOOL_VERSION "18.1"
+set_global_assignment -name IP_GENERATED_DEVICE_FAMILY "{Cyclone IV E}"
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "RED.vhd"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "RED.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "RED.cmp"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "RED_syn.v"]

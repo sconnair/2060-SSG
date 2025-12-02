@@ -1,0 +1,221 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "AUD_DACDAT",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_ADCLRCK",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_DACLRCK",
+					"strict" : false
+				},
+				{
+					"name" : "I2C_SCLK",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inL[15]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inL[14]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inL[13]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inL[12]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inL[11]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inL[10]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inL[9]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inL[8]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inL[7]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inL[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inL[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inL[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inL[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inL[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inL[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inL[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inR[15]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inR[14]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inR[13]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inR[12]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inR[11]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inR[10]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inR[9]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inR[8]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inR[7]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_inR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "I2C_SDAT",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_BCLK",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[7]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[6]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[5]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[4]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[3]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[2]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[1]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK_50",
+					"strict" : false
+				},
+				{
+					"name" : "AUD_ADCDAT",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[0]",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

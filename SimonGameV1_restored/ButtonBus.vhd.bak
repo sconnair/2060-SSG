@@ -1,0 +1,29 @@
+Library ieee;
+USE ieee.std_logic_1164.all;
+
+Entity SevenSegment IS
+	Port
+	(
+		GREEN : IN STD_LOGIC (0 DOWNTO 0);
+		YELLOW : IN STD_LOGIC (0 DOWNTO 0);
+		BLUE : IN STD_LOGIC (0 DOWNTO 0);
+		RED : IN STD_LOGIC (0 DOWNTO 0);
+		Out_Bus : OUT STD_LOGIC_VECTOR (2 DOWNTO 0)
+	);
+END SevenSegment;
+
+ARCHITECTURE Behavioral OF SevenSegment IS
+
+
+BEGIN
+
+	
+		Out_Bus <= "001" when BLUE = '1' else
+				"010" when YELLOW = '1' else
+				"011" when RED = '1' else
+				"100" when GREEN = '1' else
+				"000";
+				
+	
+		
+END Behavioral;
